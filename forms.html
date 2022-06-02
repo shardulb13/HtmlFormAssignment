@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <div class="signupform">
+        <h1>SignUp Form</h1>
+        <form action="#">
+            <table>
+            <tr>
+                <td> <label for="Fname">Firstname:</label></td>
+                <td><input type="text" name="firstname" id="fname" placeholder="Firstname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Fname">Lastname:</label></td>
+                <td> <input type="text" name="lastname" id="lname" placeholder="Lastname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+            <td> <label for="qualification">Qualification:</label> </td>
+                <td><select name="qualification" id="">
+                    <option value="default">none</option>
+                    <option value="B.E./BTech">B.E./BTech</option>
+                    <option value="BCA/MCA">BCA</option>
+                    <option value="BCS/MCS">BCS/MCS</option>
+                    <option value="BSC/MSC">BSC/MSC</option>
+                </select></td>
+            </tr>
+            
+            <tr>
+                <td><label for="languages">Languages:</label></td>
+                <td>
+                <input type="checkbox" name="HTML" >
+                <label for="html">HTML</label>
+                <input type="checkbox" name="HTML" >
+                <label for="css">CSS</label>
+                <input type="checkbox" name="HTML" >
+                <label for="Js">JavaScript</label>
+                <input type="checkbox" name="HTML" >
+                <label for="Js">Angular</label>
+                <input type="checkbox" name="HTML" >
+                <label for="Js">React</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Fname">Email:</label></td>
+                <td> <input type="email" name="email" id="email" placeholder="Email ID"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Fname">Password:</label></td>
+                <td> <input type="password" name="password" id="pass" placeholder="Password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Fname">Confirm Password:</label></td>
+                <td> <input type="password" name="cpassword" id="cpass" placeholder="Confirm Password"></td>
+            </tr>
+            <tr>
+            </table>
+            <input type="checkbox"><a href="#">I agree the terms and conditions.</a> <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+            
+        </form>
+    </div>
+</body>
+</html>
